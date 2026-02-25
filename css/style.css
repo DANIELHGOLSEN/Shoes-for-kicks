@@ -1,0 +1,149 @@
+/*-----RESET-----*/
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1140px;
+    margin-inline: auto;
+    background-color: rgb(231, 232, 227);
+}
+
+/*-----HEADER-----*/
+header {
+    justify-content: flex-start;
+    border-radius: 25px;
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+}
+
+header ul {
+    display: flex;
+    gap: 25px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header_img {
+    width: 150px;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+    background-color: black;
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.white {
+    width: 150px;
+    padding-right: 1.5rem;
+}
+
+small {
+    color: white;
+}
+
+/*=====INDEX=====*/
+
+.background {
+    background-image: url("../billeder/hero.png");
+    max-width: 1140px;
+    width: 80%;
+    height: 650px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.img_text {
+    position: relative;
+    margin-top: 410px;
+    color: white;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+.img_p {
+    color: white;
+}
+
+.front_button {
+    border-radius: 10px;
+    text-decoration: rgb(75, 105, 227);
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+#SHOES_FOR {
+    font-size: 750%;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+span {
+    color: rgb(75, 105, 227);
+}
+
+button {
+    background-color: rgb(75, 105, 227);
+}
+
+/*=====BØRNESKO=====*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.shoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+    max-width: 800px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+.shoebox {
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
